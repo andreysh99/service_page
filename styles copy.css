@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Roboto:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Maven Pro", sans-serif;
+  color: #fff;
+  background-color: #6a5acd;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.8s;
+}
+
+a:hover {
+  color: #097e89;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* Header */
+
+.header {
+  position: relative;
+  padding: 0 30px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 5;
+}
+
+.header__logo {
+  font-size: 24px;
+}
+.header__logo span {
+  color: #da2346;
+}
+
+.header__menu {
+}
+
+.header__list {
+  margin-left: 95px;
+  margin-right: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.header__link {
+  /* padding: 10px 20px; */
+}
+
+.header__social {
+  display: flex;
+  gap: 10px;
+}
+
+.header__social-link {
+  display: block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.link__icon {
+}
+
+/* Welcome */
+
+.welcome {
+  margin-top: -63px;
+  padding-top: 155px;
+  min-height: 550px;
+  background-image: url("./images/welcome.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: blueviolet;
+  z-index: 1;
+}
+
+.welcome__container {
+  margin: 0 auto;
+  width: 540px;
+  height: 195px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.welcome__title {
+  padding-top: 35px;
+  padding-bottom: 30px;
+
+  font-weight: bold;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+.welcome__desc { 
+  font-size: 10px;
+  line-height: 1.75;
+  opacity: 0.7;
+}
+.welcome__desc + .welcome__desc {
+  margin-bottom: 40px;
+}
+
+.welcome__link {
+  padding: 10px 30px;
+  border: 1px solid rgba(255, 255, 255); 
+    font-size: 14px; 
+    text-transform: uppercase; 
+}
