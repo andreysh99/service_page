@@ -201,7 +201,7 @@ h6 {
 .service {
   height: 700px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr) ; 
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 4fr;
   background-color: #3d3d3d;
 }
@@ -216,11 +216,11 @@ h6 {
 
 .grid-1 {
   grid-column: 1 / 4;
-  background-color: #373737; 
+  background-color: #373737;
 }
 
 .grid-3 {
-  background-color: #097e89; 
+  background-color: #097e89;
 }
 
 .title {
@@ -250,4 +250,95 @@ h6 {
   background-color: #959595;
   border-radius: 2px;
 }
- 
+
+/* Feedback */
+
+.feedback {
+  height: 420px;
+  background-color: #3d3d3d;
+}
+
+.feedback__title-container {
+  height: 140px;
+  text-align: center;
+  background-color: #373737;
+}
+.feedback__title {
+  padding: 30px  30% 0 30% ;
+  font-size: 40px;
+  
+  border-bottom: 1px solid #fff;
+}
+
+.feedback__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+.feedback__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 240px;
+
+  opacity: 0.7;
+}
+
+.feedback__desc {
+  margin-bottom: 30px;
+}
+
+.feedback__btn {
+}
+
+.feedback__list {
+  display: flex;
+  width: 70%;
+  height: 220px;
+  gap: 20px;
+}
+.feedback__item {
+  color: black;
+}
+
+.feedback__img {
+  height: 100%;
+}
+
+.item__num {
+  position: relative;
+  display: block;
+  left: 10px;
+  bottom: 42px;
+  padding-top: 8px;
+
+  width: 40px;
+  height: 30px;
+
+  text-align: center;
+  font-size: 10px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.item__info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 60px;
+  bottom: 72px;
+  padding-left: 5px;
+
+  width: 130px;
+  height: 30px;
+
+  background-color: #fff;
+  border-radius: 2px;
+}
+.item-name {
+  font-size: 12px;
+}
+.item__prof {
+  font-size: 10px;
+}
