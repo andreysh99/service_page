@@ -259,12 +259,12 @@ h6 {
 }
 
 .feedback__title-container {
+  padding: 40px 70px;
   height: 140px;
   text-align: center;
   background-color: #373737;
 }
 .feedback__title {
-  padding: 30px  30% 0 30% ;
   font-size: 40px;
   
   border-bottom: 1px solid #fff;
@@ -341,4 +341,41 @@ h6 {
 }
 .item__prof {
   font-size: 10px;
+}
+
+/* Clients */
+
+.clients {
+  height: 530px;
+  background: #FFF;
+}
+
+.title__container {
+  padding: 40px 70px;
+  height: 140px;
+  text-align: center;
+  background-color: #fefefe;
+}
+.clients__title { 
+  color: #656464;
+  font-size: 40px;
+  
+  border-bottom: 1px solid #656464;
+}
+
+.clients__list { 
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.clients__item { 
+  width: 250px;
+  height: 195px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.clients__item-logo {
+
 }
