@@ -266,7 +266,7 @@ h6 {
 }
 .feedback__title {
   font-size: 40px;
-  
+
   border-bottom: 1px solid #fff;
 }
 
@@ -347,7 +347,7 @@ h6 {
 
 .clients {
   height: 530px;
-  background: #FFF;
+  background: #fff;
 }
 
 .title__container {
@@ -356,26 +356,81 @@ h6 {
   text-align: center;
   background-color: #fefefe;
 }
-.clients__title { 
+.clients__title {
   color: #656464;
   font-size: 40px;
-  
+
   border-bottom: 1px solid #656464;
 }
 
-.clients__list { 
+.clients__list {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
-.clients__item { 
+.clients__item {
   width: 250px;
   height: 195px;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .clients__item-logo {
+}
 
+/* Quote */
+
+.quote {
+  height: 170px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #097e89;
+}
+
+.quote__text { 
+}
+
+.quote__title {
+  margin: 25px 0;
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.quote__desc {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.quote__form {
+  display: flex;
+  height: 45px;
+}
+
+.quote__input {
+  width: 200px;
+  padding: 7px 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: inherit;
+  border: 1px solid #84bfc4;
+  border-radius: 2px;
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  padding-left: 20px;
+  font-size: 10px;
+  color: #fff;
+}
+
+.quote__btn {
+  width: 100px;
+  height: 45px;
+  color: #097e89;
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
 }
