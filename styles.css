@@ -84,8 +84,9 @@ h6 {
 }
 
 .header__social-link {
-  display: block;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
 
